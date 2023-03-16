@@ -1,2 +1,2 @@
-CFILE="0-preprocessor.c"
-cpp $CFILE > c
+#!/bin/bash
+cpp $1 > c
