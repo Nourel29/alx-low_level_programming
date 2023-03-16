@@ -1,2 +1,2 @@
 #!/bin/bash
-cpp $1 > c
+gcc -E $CFILE -o c
