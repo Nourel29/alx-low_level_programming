@@ -1,4 +1,5 @@
-#include "main.h"
+#include <stdio.h>
+
 /**
  * main - Entry point
  *
@@ -6,14 +7,7 @@
  */
 int main(void)
 {
-	char *p = "_putchar";
+    printf("_putchar\n");
 
-	while (*p)
-	{
-		_putchar(*p);
-		p++;
-	}
-	_putchar('\n');
-
-	return (0);
+    return (0);
 }
